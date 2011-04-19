@@ -6,7 +6,7 @@
 
 	<ui:style>
 		.dockLayout {
-			margin: 2%;
+			margin: 2em;
 		}
 		
 		@sprite .header {
@@ -15,15 +15,52 @@
 			width: auto;
 			padding-left: 120px;
 		}
+		
+		.bigButton {
+			font-size: large;
+			/* color: black; */
+			margin-top: 0.5em;
+			/*margin-left:auto;*/
+
+			
+		}
+		
+		.headerText {
+			font-size: 1.4em;
+			line-height: 140%;
+			font-family: Georgia, "Times New Roman", serif;
+		}
+		
+		.quoteText {
+			font-size: 1.4em;
+			line-height: 140%;
+			font-family: Georgia, "Times New Roman", serif;
+		}
 	</ui:style>
 
 
-	<g:DockLayoutPanel unit='PCT' addStyleNames="{style.dockLayout}">
+	<g:DockLayoutPanel unit='EM' addStyleNames="{style.dockLayout}">
 		<g:north size='20'>
 			<g:HTMLPanel addStyleNames="{style.header}">
-				<h1>Do you speak GWT?</h1>
-				<p>Profitez du beau temps, sortez la tête de votre mission, et venez
-					suivre une journée de formation qui cartonne !</p>
+				<h1>Parlez-vous GWT ?</h1>
+				<div class="{style.headerText}">
+					<p>
+						Profitez du beau temps, sortez la tête de votre mission, et venez
+						suivre une journée de formation
+						<strong>qui cartonne</strong>
+						!
+						<br />
+						Au programme :
+						<ul>
+							<li>une journée de formation GWT s'adressant aux débutants,</li>
+							<li>de la pratique, de la pratique, et de la pratique,</li>
+							<li>ambiance décontractée, gardez la chemise au placard !</li>
+						</ul>
+						Si vous n'êtes pas déjà inscrit...
+						<strong>c'est le moment</strong>
+						!
+					</p>
+				</div>
 			</g:HTMLPanel>
 		</g:north>
 		<g:center>
@@ -40,8 +77,19 @@
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
-						<p>Ajouter du contenu.</p>
-						<g:Button ui:field="register1">Le 28 avril, ça me botte !</g:Button>
+						<g:Button addStyleNames="{style.bigButton}" ui:field="register1">
+							Le
+							<strong>28 avril</strong>
+							, avec Pierre ? Ça
+							me botte !
+						</g:Button>					
+						<p class="{style.quoteText}">
+							Le mot du formateur :
+							<br />
+							<em>"Pierre qui roule a bu trop de mousse."</em>
+							<strong>Pierre Merienne</strong>
+							.
+						</p>
 					</g:HTMLPanel>
 				</g:stack>
 				<g:stack>
@@ -56,8 +104,18 @@
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
-						<p>Ajouter du contenu.</p>
-						<g:Button ui:field="register2">Le 4 mai, ça me botte !</g:Button>
+						<g:Button addStyleNames="{style.bigButton}" ui:field="register2">
+							Le
+							<strong>4 mai</strong>
+							, avec Pierre-Yves ? Je kiffe grave !
+						</g:Button>
+						<p class="{style.quoteText}">
+							Le mot du formateur :
+							<br />
+							<em>"GWT, c'est plus mieux, parce que c'est moins pire."</em>
+							<strong>Pierre-Yves Ricau</strong>
+							.
+						</p>
 					</g:HTMLPanel>
 				</g:stack>
 				<g:stack>
@@ -72,16 +130,28 @@
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
-						<p>Ajouter du contenu.</p>
-						<g:Button ui:field="register3">Le 5 mai, ça me botte !</g:Button>
+						<g:Button addStyleNames="{style.bigButton}" ui:field="register3">
+							Le
+							<strong>5 mai</strong>
+							, avec Mathieu ? Carrement stylé !
+						</g:Button>
+						<p class="{style.quoteText}">
+							Le mot du formateur :
+							<br />
+							<em>"JSF, j'aime pas trop beaucoup ça..."</em>
+							<strong>Mathieu Boniface</strong>
+							.
+						</p>
 					</g:HTMLPanel>
 				</g:stack>
 			</g:StackLayoutPanel>
 		</g:center>
-		<g:south size="5">
+		<g:south size="4">
 			<g:HTMLPanel>
 				<p>
-					Application réalisée en GWT 2.2 et déployée sur un compte
+					Application réalisée en
+					<strong>GWT 2.2</strong>
+					et déployée sur un compte
 					<a href="https://appengine.google.com/a/excilys.com">App Engine</a>
 					Excilys.
 					<br />
