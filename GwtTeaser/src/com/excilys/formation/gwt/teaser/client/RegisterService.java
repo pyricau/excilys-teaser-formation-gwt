@@ -6,5 +6,5 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 
 @RemoteServiceRelativePath("register")
 public interface RegisterService extends RemoteService {
-	boolean greetServer(GwtTrainingSession session, String message);
+	boolean register(GwtTrainingSession session, String message);
 }

@@ -7,7 +7,12 @@ import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 @SuppressWarnings("serial")
 public class RegisterServiceImpl extends RemoteServiceServlet implements RegisterService {
 
-	public boolean greetServer(GwtTrainingSession session, String message) throws IllegalArgumentException {
+	public boolean register(GwtTrainingSession session, String message) throws IllegalArgumentException {
+		
+		String username = getThreadLocalRequest().getRemoteUser();
+		
+		
+		
 		
 		return true;
 	}
