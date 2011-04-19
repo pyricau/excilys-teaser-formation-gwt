@@ -68,20 +68,13 @@
 				<g:stack>
 					<g:customHeader size='10'>
 						<g:HTMLPanel>
-							<h2>
-								Le 28 avril, avec
-								<a href="mailto:pmerienne@excilys.com">Pierre Merienne</a>
-							</h2>
-							Pierre est spécialiste en roulades et autres dépôts de fumier
-							devant le Cave.
+							<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a></h2>
+							Pierre est spécialiste en roulades et autres dépôts de fumier devant le Cave.
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
 						<g:Button addStyleNames="{style.bigButton}" ui:field="register1">
-							Le
-							<strong>28 avril</strong>
-							, avec Pierre ? Ça
-							me botte !
+							Le <strong>28 avril</strong>, avec Pierre ? Ça me botte !
 						</g:Button>					
 						<p class="{style.quoteText}">
 							Le mot du formateur :
@@ -94,19 +87,13 @@
 				<g:stack>
 					<g:customHeader size='10'>
 						<g:HTMLPanel>
-							<h2>
-								Le 4 mai, avec
-								<a href="mailto:pyricau@excilys.com">Pierre-Yves Ricau</a>
-							</h2>
-							Pierre-Yves prend le train le vendredi soir, alors l'apéro ça
-							sera lundi !
+							<h2>Le 4 mai, avec <a href="mailto:pyricau@excilys.com">Pierre-Yves Ricau</a></h2>
+							Pierre-Yves prend le train le vendredi soir, alors l'apéro ça sera lundi !
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
 						<g:Button addStyleNames="{style.bigButton}" ui:field="register2">
-							Le
-							<strong>4 mai</strong>
-							, avec Pierre-Yves ? Je kiffe grave !
+							Le <strong>4 mai</strong>, avec Pierre-Yves ? Je kiffe grave !
 						</g:Button>
 						<p class="{style.quoteText}">
 							Le mot du formateur :
@@ -119,19 +106,13 @@
 				<g:stack>
 					<g:customHeader size='10'>
 						<g:HTMLPanel>
-							<h2>
-								Le 5 mai, avec
-								<a href="mailto:mboniface@excilys.com">Mathieu Boniface</a>
-							</h2>
-							Mathieu, dit Bobo pour les intimes, n'aime pas trop que l'on
-							parle de son monosourcil.
+							<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a></h2>
+							Mathieu, dit Bobo pour les intimes, n'aime pas trop que l'on parle de son monosourcil.
 						</g:HTMLPanel>
 					</g:customHeader>
 					<g:HTMLPanel>
 						<g:Button addStyleNames="{style.bigButton}" ui:field="register3">
-							Le
-							<strong>5 mai</strong>
-							, avec Mathieu ? Carrement stylé !
+							Le <strong>5 mai</strong>, avec Mathieu ? Carrement stylé !
 						</g:Button>
 						<p class="{style.quoteText}">
 							Le mot du formateur :
