@@ -2,7 +2,7 @@
 <module rename-to='gwtteaser'>
   <inherits name='com.google.gwt.user.User'/>
 
-  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>
 
   <entry-point class='com.excilys.formation.gwt.teaser.client.GwtTeaser'/>
 

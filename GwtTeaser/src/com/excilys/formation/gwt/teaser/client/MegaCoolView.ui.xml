@@ -27,9 +27,9 @@
 			</g:HTMLPanel>
 		</g:north>
 		<g:center>
-			<g:StackLayoutPanel unit='PCT'>
+			<g:StackLayoutPanel unit='EM'>
 				<g:stack>
-					<g:customHeader size='20'>
+					<g:customHeader size='10'>
 						<g:HTMLPanel>
 							<h2>
 								Le 28 avril, avec
@@ -45,7 +45,7 @@
 					</g:HTMLPanel>
 				</g:stack>
 				<g:stack>
-					<g:customHeader size='20'>
+					<g:customHeader size='10'>
 						<g:HTMLPanel>
 							<h2>
 								Le 4 mai, avec
@@ -61,7 +61,7 @@
 					</g:HTMLPanel>
 				</g:stack>
 				<g:stack>
-					<g:customHeader size='20'>
+					<g:customHeader size='10'>
 						<g:HTMLPanel>
 							<h2>
 								Le 5 mai, avec
