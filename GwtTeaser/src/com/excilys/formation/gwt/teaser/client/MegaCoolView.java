@@ -50,16 +50,16 @@ public class MegaCoolView extends Composite {
         dialogBox.setGlassEnabled(true);
         dialogBox.setAnimationEnabled(true);
 
-        dialogBox.setText("Inscription à la formation GWT du " + trainingSession.getPrettyName());
+        dialogBox.setText("Inscription pour la formation GWT du " + trainingSession.getPrettyName());
 
-        Label label = new Label("Un petit message ?");
+        Label label = new Label("Ajoutez un message si vous le souhaitez, puis cliquez sur \"Je m'inscris !\"");
 
         final RichTextArea richTextArea = new RichTextArea();
         
         final RichTextToolbar toolBar = new RichTextToolbar(richTextArea);
         richTextArea.setWidth("100%");
 
-        Button registerButton = new Button("Je viens !");
+        Button registerButton = new Button("Je m'inscris !");
         registerButton.addClickHandler(new ClickHandler() {
             public void onClick(ClickEvent event) {
                 dialogBox.hide();
@@ -105,9 +105,9 @@ public class MegaCoolView extends Composite {
 
         dialogBox.setText("Erreur inconnue");
 
-        Label label = new Label("WTF ?? Visiblement, un ptit problème... contactez pyricau@excilys.com et lâchez-vous, ça bug!");
+        Label label = new Label("WTF ?? Visiblement, ya une erreur... contactez pyricau@excilys.com!");
 
-        Button button = new Button("Fermer cette boîte d'erreur débile");
+        Button button = new Button("Fermer");
         button.addClickHandler(new ClickHandler() {
             public void onClick(ClickEvent event) {
                 dialogBox.hide();
@@ -127,9 +127,9 @@ public class MegaCoolView extends Composite {
         dialogBox.setGlassEnabled(true);
         dialogBox.setAnimationEnabled(true);
 
-        dialogBox.setText("Inscription enregistrée!");
+        dialogBox.setText("Inscription OK!");
 
-        Label label = new Label("Un mail de confirmation de la demande d'inscription a été envoyé.");
+        Label label = new Label("Envoi OK du mail de demande d'inscription.");
 
         Button button = new Button("J'ai fini, je vais voir mes mails");
         button.addClickHandler(new ClickHandler() {

@@ -88,7 +88,6 @@
 							<br />
 							<em>"Pierre qui roule a bu trop de mousse."</em>
 							<strong>Pierre Merienne</strong>
-							.
 						</p>
 					</g:HTMLPanel>
 				</g:stack>
@@ -114,7 +113,6 @@
 							<br />
 							<em>"GWT, c'est plus mieux, parce que c'est moins pire."</em>
 							<strong>Pierre-Yves Ricau</strong>
-							.
 						</p>
 					</g:HTMLPanel>
 				</g:stack>
@@ -140,7 +138,6 @@
 							<br />
 							<em>"JSF, j'aime pas trop beaucoup ça..."</em>
 							<strong>Mathieu Boniface</strong>
-							.
 						</p>
 					</g:HTMLPanel>
 				</g:stack>
