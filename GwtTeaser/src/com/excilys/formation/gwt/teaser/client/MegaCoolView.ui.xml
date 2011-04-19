@@ -64,67 +64,69 @@
 			</g:HTMLPanel>
 		</g:north>
 		<g:center>
-			<g:StackLayoutPanel unit='EM'>
-				<g:stack>
-					<g:customHeader size='10'>
+    		<g:ScrollPanel>
+				<g:StackLayoutPanel unit='EM'>
+					<g:stack>
+						<g:customHeader size='10'>
+							<g:HTMLPanel>
+								<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a></h2>
+								Pierre est spécialiste es roulades et autres galipettes.
+							</g:HTMLPanel>
+						</g:customHeader>
 						<g:HTMLPanel>
-							<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a></h2>
-							Pierre est spécialiste en roulades et autres dépôts de fumier devant le Cave.
+							<g:Button addStyleNames="{style.bigButton}" ui:field="register1">
+								Le <strong>28 avril</strong>, avec Pierre ? Ça me botte !
+							</g:Button>					
+							<p class="{style.quoteText}">
+								Le mot du formateur :
+								<br />
+								<em>"Pierre qui roule a bu trop de mousse."</em>
+								<strong>Pierre Merienne</strong>
+							</p>
 						</g:HTMLPanel>
-					</g:customHeader>
-					<g:HTMLPanel>
-						<g:Button addStyleNames="{style.bigButton}" ui:field="register1">
-							Le <strong>28 avril</strong>, avec Pierre ? Ça me botte !
-						</g:Button>					
-						<p class="{style.quoteText}">
-							Le mot du formateur :
-							<br />
-							<em>"Pierre qui roule a bu trop de mousse."</em>
-							<strong>Pierre Merienne</strong>
-						</p>
-					</g:HTMLPanel>
-				</g:stack>
-				<g:stack>
-					<g:customHeader size='10'>
+					</g:stack>
+					<g:stack>
+						<g:customHeader size='10'>
+							<g:HTMLPanel>
+								<h2>Le 4 mai, avec <a href="mailto:pyricau@excilys.com">Pierre-Yves Ricau</a></h2>
+								Pierre-Yves, aka Piwaï, le roi du spam 
+							</g:HTMLPanel>
+						</g:customHeader>
 						<g:HTMLPanel>
-							<h2>Le 4 mai, avec <a href="mailto:pyricau@excilys.com">Pierre-Yves Ricau</a></h2>
-							Pierre-Yves prend le train le vendredi soir, alors l'apéro ça sera lundi !
+							<g:Button addStyleNames="{style.bigButton}" ui:field="register2">
+								Le <strong>4 mai</strong>, avec Pierre-Yves ? Je kiffe grave !
+							</g:Button>
+							<p class="{style.quoteText}">
+								Le mot du formateur :
+								<br />
+								<em>"GWT, c'est plus mieux, parce que c'est moins pire."</em>
+								<strong>Pierre-Yves Ricau</strong>
+							</p>
 						</g:HTMLPanel>
-					</g:customHeader>
-					<g:HTMLPanel>
-						<g:Button addStyleNames="{style.bigButton}" ui:field="register2">
-							Le <strong>4 mai</strong>, avec Pierre-Yves ? Je kiffe grave !
-						</g:Button>
-						<p class="{style.quoteText}">
-							Le mot du formateur :
-							<br />
-							<em>"GWT, c'est plus mieux, parce que c'est moins pire."</em>
-							<strong>Pierre-Yves Ricau</strong>
-						</p>
-					</g:HTMLPanel>
-				</g:stack>
-				<g:stack>
-					<g:customHeader size='10'>
+					</g:stack>
+					<g:stack>
+						<g:customHeader size='10'>
+							<g:HTMLPanel>
+								<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a></h2>
+								Mathieu, alias Bobo apéro, est expert en bières amères.
+							</g:HTMLPanel>
+						</g:customHeader>
 						<g:HTMLPanel>
-							<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a></h2>
-							Mathieu, dit Bobo pour les intimes, n'aime pas trop que l'on parle de son monosourcil.
+							<g:Button addStyleNames="{style.bigButton}" ui:field="register3">
+								Le <strong>5 mai</strong>, avec Mathieu ? Carrement stylé !
+							</g:Button>
+							<p class="{style.quoteText}">
+								Le mot du formateur :
+								<br />
+								<em>"JSF, j'aime pas trop beaucoup ça..."</em>
+								<strong>Mathieu Boniface</strong>
+							</p>
 						</g:HTMLPanel>
-					</g:customHeader>
-					<g:HTMLPanel>
-						<g:Button addStyleNames="{style.bigButton}" ui:field="register3">
-							Le <strong>5 mai</strong>, avec Mathieu ? Carrement stylé !
-						</g:Button>
-						<p class="{style.quoteText}">
-							Le mot du formateur :
-							<br />
-							<em>"JSF, j'aime pas trop beaucoup ça..."</em>
-							<strong>Mathieu Boniface</strong>
-						</p>
-					</g:HTMLPanel>
-				</g:stack>
-			</g:StackLayoutPanel>
+					</g:stack>
+				</g:StackLayoutPanel>
+			</g:ScrollPanel>
 		</g:center>
-		<g:south size="4">
+		<g:south size="2">
 			<g:HTMLPanel>
 				<p>
 					Application réalisée en
