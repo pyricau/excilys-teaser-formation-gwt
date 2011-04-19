@@ -37,8 +37,7 @@ public class RegisterServiceImpl extends RemoteServiceServlet implements Registe
     private void sendRegistrationMail(GwtTrainingSession trainingSession, String username, String message) throws MessagingException, UnsupportedEncodingException {
         String registerSubject = "Inscription formation GWT de " + username + " pour le " + trainingSession.getPrettyName();
         String registerMsgBody = "<strong>"+username + "</strong> (<a href=\""+username+"@excilys.com\">"+username+"@excilys.com</a>) a demandé à être inscrit à la session de formation GWT du <strong>" + trainingSession.getPrettyName() + "</strong>.<br />Merci de lui répondre le plus rapidement possible.<br /><br />Son message:<br /><br />" + message;
-        // TODO add training@excilys.com slandelle@excilys.com
-        sendMail(registerSubject, registerMsgBody, "pyricau@excilys.com", "pmerienne@excilys.com", "mboniface@excilys.com");
+        sendMail(registerSubject, registerMsgBody, "training@excilys.com", "pyricau@excilys.com", "pmerienne@excilys.com", "mboniface@excilys.com");
     }
 
     private void sendRegistrationNoticeMail(GwtTrainingSession trainingSession, String username) throws MessagingException, UnsupportedEncodingException {
