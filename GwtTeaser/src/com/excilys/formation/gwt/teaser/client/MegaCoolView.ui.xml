@@ -1,0 +1,76 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+	<ui:style>
+		.pretty {
+			background-color: Skyblue;
+		}
+		.dockLayout {
+			margin: 2%;
+		}
+	</ui:style>
+
+
+ <g:DockLayoutPanel unit='PCT' addStyleNames="{style.dockLayout}">
+   <g:north size='20'>
+     <g:HTMLPanel>
+     	<h1>Do you speak GWT?</h1>
+     	<p>Profitez du beau temps, sortez la tête de votre mission, et venez suivre une journée de formation qui cartonne !</p>
+     </g:HTMLPanel>
+   </g:north>
+   <g:center>
+	<g:StackLayoutPanel unit='PCT'>
+		<g:stack>
+			<g:customHeader size='20'>
+				<g:HTMLPanel>
+					<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a></h2>
+					Pierre est spécialiste en roulades et autres dépôts de fumier devant le Cave.
+				</g:HTMLPanel>
+			</g:customHeader>
+			<g:HTMLPanel>
+				<p>Ajouter du contenu.</p>
+				<g:Button ui:field="register1">Le 28 avril, ça me botte !</g:Button>
+			</g:HTMLPanel>
+		</g:stack>
+		<g:stack>
+			<g:customHeader size='20'>
+				<g:HTMLPanel>
+					<h2>Le 4 mai, avec <a href="mailto:pyricau@excilys.com">Pierre-Yves Ricau</a></h2>
+					Pierre-Yves prend le train le vendredi soir, alors l'apéro ça sera lundi !
+				</g:HTMLPanel>
+			</g:customHeader>
+			<g:HTMLPanel>
+				<p>Ajouter du contenu.</p>
+				<g:Button ui:field="register2">Le 4 mai, ça me botte !</g:Button>
+			</g:HTMLPanel>
+		</g:stack>
+		<g:stack>
+			<g:customHeader size='20'>
+				<g:HTMLPanel>
+					<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a></h2>
+					Mathieu, dit Bobo pour les intimes, n'aime pas trop que l'on parle de son monosourcil.
+				</g:HTMLPanel>
+			</g:customHeader>
+			<g:HTMLPanel>
+				<p>Ajouter du contenu.</p>
+				<g:Button ui:field="register3">Le 5 mai, ça me botte !</g:Button>
+			</g:HTMLPanel>
+		</g:stack>
+	</g:StackLayoutPanel>
+   </g:center>
+   <g:south size="5">
+   		<g:HTMLPanel>
+   			<p>
+   			Application réalisée en GWT 2.2 et déployée sur un compte <a href="https://appengine.google.com/a/excilys.com">App Engine</a> Excilys.<br />
+   			Le code source est disponible <a href="https://github.com/pyricau/excilys-teaser-formation-gwt">sur GitHub</a>.
+   			</p>
+   		</g:HTMLPanel>
+   </g:south>
+ </g:DockLayoutPanel>
+ 
+
+
+
+
+</ui:UiBinder>
