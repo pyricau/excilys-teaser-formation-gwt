@@ -12,6 +12,7 @@
 
 		<include path="**.cache.*" expiration="365d" />
 		<exclude path="**.gwt.rpc" />
+		<exclude path="GwtTeaser.html" />
 	</static-files>
 
 	<!-- Configure java.util.logging -->
