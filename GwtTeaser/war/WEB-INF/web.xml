@@ -46,7 +46,7 @@
 			<param-value>true</param-value>
 		</init-param>
 	</filter>
-
+	
 	<filter>
 		<filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
 		<filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>
@@ -56,6 +56,11 @@
 		<filter-name>CAS Assertion Thread Local Filter</filter-name>
 		<filter-class>org.jasig.cas.client.util.AssertionThreadLocalFilter</filter-class>
 	</filter>
+	
+	<filter>
+		<filter-name>LogUserFilter</filter-name>
+		<filter-class>com.excilys.formation.gwt.teaser.server.LoggingServletFilter</filter-class>
+	</filter>	
 	
    <filter-mapping>
            <filter-name>CAS Authentication Filter</filter-name>
@@ -81,6 +86,11 @@
 		<filter-name>CAS Assertion Thread Local Filter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	
+	<filter-mapping>
+		<filter-name>LogUserFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>	
 
 	<listener>
 		<listener-class>org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>
