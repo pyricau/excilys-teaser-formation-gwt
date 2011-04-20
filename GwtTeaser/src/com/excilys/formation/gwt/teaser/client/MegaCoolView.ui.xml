@@ -56,12 +56,10 @@
 						Au programme :
 						<ul>
 							<li>une journée de formation GWT s'adressant aux débutants,</li>
-							<li>de la pratique, de la pratique, et de la pratique,</li>
-							<li>ambiance décontractée, gardez la chemise au placard !</li>
+							<li><strong>de</strong> la pratique, de <strong>la</strong> pratique, et de la <strong>pratique</strong>,</li>
+							<li>ambiance décontractée, gardez la <strong>chemise au placard</strong> !</li>
 						</ul>
-						Si vous n'êtes pas déjà inscrit...
-						<strong>c'est le moment</strong>
-						!
+						Si vous n'êtes pas déjà inscrit... <strong>c'est le moment</strong> !
 					</p>
 				</div>
 			</g:HTMLPanel>
@@ -71,7 +69,7 @@
 					<g:stack>
 						<g:customHeader size='5'>
 							<g:HTMLPanel addStyleNames="{style.stackElement}">
-								<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a>, spécialiste es roulades et autres galipettes</h2>
+								<h2>Le 28 avril, avec <a href="mailto:pmerienne@excilys.com">Pierre Merienne</a>, spécialiste es roulades et autres ascenseurs</h2>
 							</g:HTMLPanel>
 						</g:customHeader>
 						<g:HTMLPanel>
@@ -107,7 +105,7 @@
 					<g:stack>
 						<g:customHeader size='5'>
 							<g:HTMLPanel addStyleNames="{style.stackElement}">
-								<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a>, alias Bobo apéro, est expert en bières amères</h2>
+								<h2>Le 5 mai, avec <a href="mailto:mboniface@excilys.com">Mathieu Boniface</a>, alias Bobo apéro, expert en bières amères</h2>
 							</g:HTMLPanel>
 						</g:customHeader>
 						<g:HTMLPanel>
